@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CART</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: url(cart.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: 100%;
+    }
+
+    .cart-container {
+      width: 800px;
+      margin: 0 auto;
+    }
+
+    .cart-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+      color: aliceblue;
+    }
+
+    .cart-item img {
+      width: 100px;
+    }
+
+    .cart-item .item-name {
+      font-weight: bold;
+    }
+
+    .cart-item .item-price {
+      font-weight: bold;
+    }
+
+    .cart-item .item-quantity {
+      width: 50px;
+      text-align: center;
+    }
+
+    .cart-item .item-total {
+      color: aliceblue;
+      font-weight: bold;
+    }
+
+    .cart-total {
+      font-weight: bold;
+      padding: 20px;
+      color: aliceblue;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="cart-container">
+    <h1 style="color:aliceblue; font-family: fantasy;">Shopping Cart</h1>
+    <div class="cart-item">
+      <input name="checkbox" type="checkbox">
+      <img src="item1.jpg" alt="item1">
+      <div class="item-name">Item 1</div>
+      <div class="item-price">৳100.00</div>
+      <div class="item-quantity">
+        <input type="number" value="1">
+      </div>
+
+    </div>
+    <div class="cart-item">
+      <input name="checkbox" type="checkbox">
+      <img src="item2.jpg" alt="item2">
+      <div class="item-name">Item 2</div>
+      <div class="item-price">৳205.00</div>
+      <div class="item-quantity">
+        <input type="number" value="1">
+      </div>
+
+    </div>
+    <div class="cart-total">
+      Total: ৳305.00
+
+    </div>
+    <Div style="background-color: rebeccapurple; color: aliceblue; width: 50px;">
+      <input type="button" value="PROCEED TO CHECKOUT ">
+    </Div>
+
+  </div>
+
+</body>
+
+</html>
